@@ -8,6 +8,11 @@ authors:
 version: "1.0.0"
 date-released: "2026-11-23"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24464811
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24464811
+    description: "Zenodo archive of version 1.0.0"
 repository-code: "https://github.com/mitkin89/field-hexapla"
 keywords: [Hexapla, Origen, Septuagint, Aquila, Symmachus, Theodotion, Hebrew Bible, textual criticism, Field]
 references:

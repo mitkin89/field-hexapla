@@ -2,6 +2,8 @@
 
 **English** · [Deutsch](README.de.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24464811.svg)](https://doi.org/10.5281/zenodo.24464811)
+
 Frederick Field, *Origenis Hexaplorum quae supersunt; sive veterum interpretum Graecorum in totum Vetus Testamentum fragmenta*, 2 vols., Oxford 1875 – transcribed page by page for all 39 books of the Hebrew Bible, with the footnotes, an English translation of the Latin footnotes, the Hebrew lemmas located in the Masoretic text, and a Greek morphology of the readings.
 
 Field collected what survives of Origen's Hexapla: the readings of Aquila (Ἀ.), Symmachus (Σ.), Theodotion (Θ.), the Quinta and Sexta, “the Syrian”, “the Hebrew” and others, next to the Septuagint (Ο΄.) with Origen's signs ※ and ÷. To our knowledge there has been no complete digital text of Field's edition so far.
@@ -81,4 +83,4 @@ Word form → list of `[lemma, parsing key, short meaning]`. Parsing keys follow
 
 See [CITATION.cff](CITATION.cff). Each release is archived on Zenodo with its own DOI.
 
-> Itkin, Igor Mendel (ed.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.0, 2026. DOI: (assigned on release).
+> Itkin, Igor Mendel (ed.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.0.0, 2026. Zenodo. https://doi.org/10.5281/zenodo.24464811
