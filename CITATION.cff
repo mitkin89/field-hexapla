@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below."
+type: dataset
+title: "Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)"
+authors:
+  - family-names: Itkin
+    given-names: Igor Mendel
+version: "1.0.0"
+date-released: "2026-11-23"
+license: CC-BY-4.0
+repository-code: "https://github.com/mitkin89/field-hexapla"
+keywords: [Hexapla, Origen, Septuagint, Aquila, Symmachus, Theodotion, Hebrew Bible, textual criticism, Field]
+references:
+  - type: book
+    title: "Origenis Hexaplorum quae supersunt; sive veterum interpretum Graecorum in totum Vetus Testamentum fragmenta"
+    authors:
+      - family-names: Field
+        given-names: Frederick
+    year: 1875
+    publisher:
+      name: Clarendon Press, Oxford

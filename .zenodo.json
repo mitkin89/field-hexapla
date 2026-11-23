@@ -1,0 +1,13 @@
+{
+  "title": "Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)",
+  "upload_type": "dataset",
+  "description": "Page-by-page transcription of Frederick Field's edition of the Hexapla fragments (Oxford 1875, 2 vols.) for all 39 books of the Hebrew Bible: Hebrew lemmas located in the Masoretic text, Field's Latin translation, the readings of Aquila, Symmachus, Theodotion and the other translators next to the Septuagint, all footnotes in Latin with an English translation, and a morphology of the Greek word forms. Transcribed with Claude (Anthropic, 2026) from the archive.org scans; a working transcription, not a critical edition. Prepared for the Safran library (https://github.com/mitkin89/Safran).",
+  "creators": [{"name": "Itkin, Igor Mendel"}],
+  "license": "cc-by-4.0",
+  "keywords": ["Hexapla", "Origen", "Septuagint", "Aquila", "Symmachus", "Theodotion", "Hebrew Bible", "textual criticism"],
+  "related_identifiers": [
+    {"identifier": "https://archive.org/details/origenhexapla01unknuoft", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "https://archive.org/details/origenhexapla02unknuoft", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "https://github.com/mitkin89/Safran", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
