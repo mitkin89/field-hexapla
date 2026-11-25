@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24464811.svg)](https://doi.org/10.5281/zenodo.24464811)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24519472.svg)](https://doi.org/10.5281/zenodo.24519472)
 
 Frederick Field, *Origenis Hexaplorum quae supersunt; sive veterum interpretum Graecorum in totum Vetus Testamentum fragmenta*, 2 Bde., Oxford 1875 – Seite für Seite transkribiert für alle 39 Bücher der hebräischen Bibel, mit den Fußnoten, einer englischen Übersetzung der lateinischen Fußnoten, den im masoretischen Text verorteten hebräischen Lemmata und einer griechischen Morphologie der Lesarten.
 
@@ -50,8 +50,7 @@ außerhalb der Abdeckungsaussage.
 
 Export, Format und Prüfung stehen in der [englischen Anleitung](README.md#version-110--bilingual-explanations).
 `manifest.json` hält Safran-Commit und SHA-256-Prüfsummen fest.
-Das DOI-Abzeichen oben bezeichnet Version 1.0.0; die neue Versions-DOI wird
-ergänzt, sobald das Zenodo-Archiv für 1.1.0 verfügbar ist.
+Version 1.1.0 ist auf Zenodo archiviert: https://doi.org/10.5281/zenodo.24519472.
 
 ## Methode und Verlässlichkeit
 
@@ -70,4 +69,4 @@ ergänzt, sobald das Zenodo-Archiv für 1.1.0 verfügbar ist.
 
 Siehe [CITATION.cff](CITATION.cff). Version 1.0.0 ist auf [Zenodo](https://doi.org/10.5281/zenodo.24464811) archiviert.
 
-> Itkin, Igor Mendel (Hg.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.1.0, 2026. https://github.com/mitkin89/field-hexapla/releases/tag/1.1.0
+> Itkin, Igor Mendel (Hg.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.1.0, 2026. Zenodo. https://doi.org/10.5281/zenodo.24519472
