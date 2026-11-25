@@ -24,6 +24,57 @@ The data were prepared for the free desktop library [Safran](https://github.com/
 
 Volume I (Genesis–Esther) and volume II (Job–Malachi) were transcribed from the scans of the University of Toronto copies on archive.org: [origenhexapla01unknuoft](https://archive.org/details/origenhexapla01unknuoft), [origenhexapla02unknuoft](https://archive.org/details/origenhexapla02unknuoft).
 
+## Version 1.1.0 — bilingual explanations
+
+New: **27,279 source-bound editorial records with 27,644 German/English
+explanation texts** by Codex (2026), plus four supplementary source-attributed
+Jewish interpretation annotations. Some records contain multiple explanations.
+Field's structured text, English footnotes, morphology and the 59 existing
+assessments are unchanged.
+
+These are modern editorial explanations, not statements by Field. Their
+presence does not constitute complete philological verification. Original
+footnotes and reservations about attribution remain authoritative.
+
+### New files and format
+
+- `assessments/explanations.json`: metadata (`version`, `editor`, `date`, `basis`)
+  and `records`. Keys follow `Book chapter:verse#unitIndex siglum`; unit indexes
+  are zero-based in `data/<Book>.json`. Each `unitText` must exactly match the
+  unit's `t`. `n` is German, `en` English. Optional `variants` items select a
+  specific `reading` and optional `forWord`, with their own `n` and `en`.
+  Optional `noteSources` stores exact footnote snapshots. Changed source text
+  requires editorial rechecking before reusing an explanation.
+- `assessments/traditions.json`: `[key, annotation]` pairs. `Hex` keys identify
+  an existing `vorlage-deutung.json` assessment; `HexSource` keys identify book,
+  verse, zero-based unit index and exact unit text. `noteId` identifies the
+  Field footnote compared. Source, editor, category, original verification
+  status and bilingual explanation (where supplied) are preserved. Only
+  `check: "source-checked"` explicitly denotes a primary-text comparison.
+- `assessments/explanations-audit.json` and `explanations-progress.json`:
+  Safran's rendering audit. Rendered counts include app-generated explanatory
+  items and differ from stored text counts. Units without a parsed synopsis
+  are outside the coverage claim; coverage is not a quality assessment.
+- `manifest.json`: exact Safran commit and SHA-256 hashes of export inputs.
+
+### Reproduce and validate
+
+Python 3.9+ and Node.js 18+, with a trusted, committed Safran checkout:
+
+```sh
+python3 scripts/sync_safran.py /path/to/Safran
+python3 scripts/validate.py
+```
+
+The sync exports structured data, morphology, assessments and explanations;
+page transcriptions and translated page files remain separately maintained.
+Validation checks source anchors, quoted footnotes, bilingual texts, reading
+selectors, tradition annotations and corpus totals. Copied Safran build/audit
+scripts require Safran's layout; see [scripts/README.md](scripts/README.md).
+
+The DOI badge above identifies archived version 1.0.0. The new version DOI
+will be added once the Zenodo archive for 1.1.0 is available.
+
 ## Format
 
 ### Page transcriptions
@@ -81,6 +132,6 @@ Word form → list of `[lemma, parsing key, short meaning]`. Parsing keys follow
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). Each release is archived on Zenodo with its own DOI.
+See [CITATION.cff](CITATION.cff). Version 1.0.0 is archived on [Zenodo](https://doi.org/10.5281/zenodo.24464811).
 
-> Itkin, Igor Mendel (ed.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.0.0, 2026. Zenodo. https://doi.org/10.5281/zenodo.24464811
+> Itkin, Igor Mendel (ed.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.1.0, 2026. https://github.com/mitkin89/field-hexapla/releases/tag/1.1.0

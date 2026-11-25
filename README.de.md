@@ -26,6 +26,33 @@ Grundlage sind die Scans der Exemplare der University of Toronto auf archive.org
 
 Das Format ist in der [englischen Fassung](README.md#format) beschrieben.
 
+## Version 1.1.0 — zweisprachige Erläuterungen
+
+Neu sind **27.279 quellengebundene Datensätze mit 27.644 deutsch-englischen
+Erklärungstexten** von Codex (2026). Ein Datensatz kann mehrere Erklärungen
+enthalten. Dazu kommen vier ergänzende Vergleiche zur jüdischen Auslegung
+mit konkreten Quellen und ursprünglichem Prüfstatus. Field-Text, englische
+Fußnoten, Morphologie und die bisherigen 59 Bewertungen bleiben unverändert.
+
+Die modernen Erläuterungen sind keine Aussagen Fields und keine vollständige
+philologische Verifikation. Originalfußnoten und ihre Vorbehalte zur
+Zuschreibung bleiben maßgeblich. Jede Erklärung ist über Buch, Vers,
+Einheitenindex, Sigle und den exakten Wortlaut `unitText` an die Quelle gebunden.
+Optionale Fußnotenschnappschüsse und einzelne Lesarten werden ebenfalls geprüft.
+Bei verändertem Quelltext ist eine erneute redaktionelle Prüfung erforderlich.
+Nur `check: "source-checked"` kennzeichnet ausdrücklich einen Primärtextvergleich.
+
+Die neuen Dateien liegen unter `assessments/explanations.json` und
+`assessments/traditions.json`. Die Audit-Dateien zählen Safrans Darstellung
+inklusive dort erzeugter Erklärungselemente; ihre Zahlen unterscheiden sich
+von den gespeicherten Texten. Einheiten ohne aufgeteilte Synopse liegen
+außerhalb der Abdeckungsaussage.
+
+Export, Format und Prüfung stehen in der [englischen Anleitung](README.md#version-110--bilingual-explanations).
+`manifest.json` hält Safran-Commit und SHA-256-Prüfsummen fest.
+Das DOI-Abzeichen oben bezeichnet Version 1.0.0; die neue Versions-DOI wird
+ergänzt, sobald das Zenodo-Archiv für 1.1.0 verfügbar ist.
+
 ## Methode und Verlässlichkeit
 
 - Die Seiten wurden mit Claude (Anthropic, 2026) nach den Seitenbildern Zeichen für Zeichen transkribiert, einschließlich aller Fußnoten; ebenso die englische Übersetzung der Fußnoten. Danach wurde jede Verseinheit über ihre Konsonanten im masoretischen Text verortet.
@@ -41,6 +68,6 @@ Das Format ist in der [englischen Fassung](README.md#format) beschrieben.
 
 ## Zitieren
 
-Siehe [CITATION.cff](CITATION.cff). Jede Version wird auf Zenodo mit eigener DOI archiviert.
+Siehe [CITATION.cff](CITATION.cff). Version 1.0.0 ist auf [Zenodo](https://doi.org/10.5281/zenodo.24464811) archiviert.
 
-> Itkin, Igor Mendel (Hg.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.0.0, 2026. Zenodo. https://doi.org/10.5281/zenodo.24464811
+> Itkin, Igor Mendel (Hg.). *Field's Hexapla: a digital transcription of Frederick Field, Origenis Hexaplorum quae supersunt (Oxford 1875)*. Version 1.1.0, 2026. https://github.com/mitkin89/field-hexapla/releases/tag/1.1.0

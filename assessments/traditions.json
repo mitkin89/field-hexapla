@@ -1,0 +1,97 @@
+[
+ [
+  [
+   "HexSource",
+   "Exodus",
+   "2:21",
+   0,
+   "Ο΄. κατῳκίσθη δὲ Μωυσῆς. Σ. ὥρκισε δὲ Μωυσῆν ὥστε οἰκεῖν. Θ. καὶ ἤρξατο Μωυσῆς κατοικεῖν.^24"
+  ],
+  {
+   "category": "aggada",
+   "author": "Codex",
+   "check": "source-checked",
+   "relation": "parallel",
+   "source": "Mekhilta DeRabbi Yishmael, Tractate Amalek 3:18",
+   "url": "https://www.sefaria.org/Mekhilta_DeRabbi_Yishmael,_Tractate_Amalek_3:18",
+   "evidence": [
+    "Mekhilta DeRabbi Yishmael, Tractate Amalek 3:18#1"
+   ],
+   "de": "Field, Fußnote 24 zu Symmachus: Die Deutung als Schwur hat eine Parallele in der Mekhilta: Jitro verpflichtet Mose durch einen Eid. Fields Lesung Μωυσῆν ist eine textkritische Herstellung am beschädigten Zeugnis, keine gesicherte vollständige Überlieferung.",
+   "en": "Field, note 24 on Symmachus: the oath interpretation has a parallel in the Mekhilta, where Jethro binds Moses by an oath. Field’s Μωυσῆν is a textual restoration of a damaged witness, not a securely preserved complete reading.",
+   "noteId": "0195.0.24"
+  }
+ ],
+ [
+  [
+   "HexSource",
+   "Exodus",
+   "35:22",
+   1,
+   "Ο΄. ÷ καὶ ἐμπλόκια ↙,^31 καὶ περιδέξια (Ἄλλος· περιδέρραια^32)."
+  ],
+  {
+   "category": "aggada",
+   "author": "Codex",
+   "check": "source-checked",
+   "relation": "parallel",
+   "source": "Shabbat 64a:20; Shabbat 64a:21",
+   "url": "https://www.sefaria.org/Shabbat_64a.20",
+   "evidence": [
+    "Shabbat 64a#20",
+    "Shabbat 64a#21"
+   ],
+   "de": "Field, Fußnote 31: Der rabbinische Vergleich betrifft die dort zitierten griechisch-venezianischen Wörter für כומז. Shabbat 64a erklärt das Schmuckstück und fügt ein Wortspiel hinzu. Das Merkmal gilt diesem Fußnotenvergleich, nicht der LXX-Zeile.",
+   "en": "Field, note 31: the rabbinic comparison concerns the Graeco-Venetus terms for כומז cited there. Shabbat 64a explains the ornament and adds a wordplay. This tag applies to that footnote comparison, not to the LXX line.",
+   "noteId": "0260.0.31"
+  }
+ ],
+ [
+  [
+   "HexSource",
+   "I Samuel",
+   "13:1",
+   0,
+   "Ο΄. Vacat. Alia exempl. ※ υἱὸς ἐνιαυτοῦ Σαοὺλ ἐν τῷ βασιλεύειν αὐτόν.^1 Alia: υἱὸς τριάκοντα ἐτῶν Σαοὺλ ἐν τῷ βασιλεύειν αὐτόν.^2 Σ. υἱὸς ὡς ἐνιαύσιος Σαοὺλ ἐν τῷ βασιλεύειν αὐτόν.^3"
+  ],
+  {
+   "category": "aggada",
+   "author": "Codex",
+   "check": "source-checked",
+   "relation": "parallel",
+   "source": "Yoma 22b:17; Targum Jonathan on I Samuel 13:1",
+   "url": "https://www.sefaria.org/Yoma_22b.17",
+   "evidence": [
+    "Yoma 22b#17",
+    "Targum Jonathan on I Samuel 13:1#1"
+   ],
+   "de": "Field, Fußnote 3 zu Symmachus/Theodoret: „wie ein Einjähriger“ wird als Sauls anfängliche Unschuld erklärt. Yoma 22b und Targum Jonathan belegen die jüdische Parallele. Kein Nachweis einer direkten Übernahme.",
+   "en": "Field, note 3 on Symmachus/Theodoret: “like a one-year-old” is explained as Saul’s initial innocence. Yoma 22b and Targum Jonathan attest the Jewish parallel. Direct borrowing is not established.",
+   "noteId": "0618.1.3"
+  }
+ ],
+ [
+  [
+   "HexSource",
+   "Psalms",
+   "48:15",
+   0,
+   "Ο΄. αὐτὸς ποιμανεῖ ἡμᾶς εἰς τοὺς αἰῶνας (עָלָמוֹת). Ἀ. αὐτὸς ὁδηγήσει ἡμᾶς, _et super mortem renovabit._ Aliter: Ἀ. … ἀθανασία.^37 Σ. … εἰς τὸ διηνεκές.^38"
+  ],
+  {
+   "category": "aggada",
+   "author": "Codex",
+   "check": "source-checked",
+   "relation": "parallel",
+   "source": "Jerusalem Talmud Megillah 2:4:5; Vayikra Rabbah 11:9",
+   "url": "https://www.sefaria.org/Jerusalem_Talmud_Megillah_2:4.5",
+   "evidence": [
+    "Jerusalem Talmud Megillah 2:4#5",
+    "Vayikra Rabbah 11:9#1"
+   ],
+   "de": "Field, Fußnote 37: Die Aquila zugeschriebene Deutung ἀθανασία wird auch im Jerusalemer Talmud Megillah 2:4 und in Wajikra Rabba 11:9 als „Welt ohne Tod“ bezeugt. Das bestätigt die rabbinische Parallele; Fields Frage nach dem ursprünglichen griechischen Wortlaut bleibt offen.",
+   "en": "Field, note 37: the interpretation attributed to Aquila, ἀθανασία, is also attested in Jerusalem Talmud Megillah 2:4 and Leviticus Rabbah 11:9 as “a world without death”. This confirms the rabbinic parallel; Field’s question about the original Greek wording remains open.",
+   "noteId": "0185.0.37"
+  }
+ ]
+]
